@@ -25,3 +25,8 @@ numbers = [5, 10, 15, 20]
 
 # Challenge:
 # Use a for loop to add all the numbers and print the total.
+total=0
+for number in numbers:
+    print(number)
+    total += number
+    print(total)
