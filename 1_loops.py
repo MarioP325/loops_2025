@@ -44,3 +44,9 @@ ntotal=0
 for new in new_numbers:
     ntotal += new
 print(ntotal)
+
+new_numbers= list(range(5,26))
+ntotal=0
+for new in new_numbers:
+    ntotal += new
+print(ntotal)
