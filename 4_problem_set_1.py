@@ -32,7 +32,7 @@ def factorial(n):
         factorial*=i+1
 
     return factorial
-print(factorial(0))
+print(factorial(17))
 # ### **Problem 4: Count Vowels**
 
 # Ask the user for a string. Count and print how many **vowels (a, e, i, o, u)** are in the string.
@@ -41,7 +41,13 @@ print(factorial(0))
 # ### **Problem 5: Print Even Numbers**
 
 # Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
-
+n-int(input("select number"))
+list2=list(range(1, n))
+for i in list2:
+    if i % 2 == 0:
+        print("even",i)
+    else:
+        print("odd", i)
 
 
 # ### **Problem 6: Reverse a String**
